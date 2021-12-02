@@ -1,0 +1,141 @@
+<div class="card">
+
+  <div class="card-body">
+      <h3 class="card-title">Consulta de produtos e indicadores</h3>
+      <h4 class="card-subtitle mb-2 text-muted">Lista de produtos e indicadores cadastrados</h4>
+      <hr>
+
+      <table class="table table-hover table-striped">
+        <thead>
+          <tr>
+            <th>Nome do produto para pactuação</th>
+            <th>Nome do indicador</th>
+            <th>Fórmula de cálculo</th>
+            <th>Modalidade do indicador</th>
+            <th>Fonte</th>
+            <th>Operações</th>
+          </tr>
+
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> 
+              <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#janela-edicao">
+                Alterar
+              </button>
+              &nbsp;
+              <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#janela-exclusao">
+                Excluir
+              </button>
+
+            </td>
+          </tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="5">
+              Quantidade de registros: 0
+
+            </td>
+          </tr>
+
+        </tfoot>
+
+      </table>     
+      
+  </div>
+
+
+</div>
+
+<!--janela modal para edição-->
+
+<div id="janela-edicao" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Alterar dados dos produtos e indicadores</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <label>Nome do produto para pactuação</label>
+          <input type="text" class="form-control"/>
+        </form>
+        <form>
+          <label>Nome do indicador</label>
+          <input type="text" class="form-control"/>
+        </form>
+        <form>
+          <label>Fórmula de cálculo</label>
+          <input type="text" class="form-control"/>
+        </form>
+        <form>
+          <label>Modalidade do indicador</label>
+          <input type="text" class="form-control"/>
+        </form>
+        <form>
+          <label>Fonte</label>
+          <input type="text" class="form-control"/>
+
+          <div class="row mt-3">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">
+                    Salvar alterações
+                </button>
+                &nbsp;
+                <button type="button" data-bs-dismiss="modal" class="btn btn-outline-secondary">
+                    Cancelar
+                </button>
+
+            </div>
+
+        </div>
+
+        </form>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<!--janela modal para exclusao-->
+
+<div id="janela-exclusao" class="modal fade" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Excluir produtos</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Desja realmente excluir o produto selecionado?</p>
+        <br/>
+
+        <div class="row mt-3">
+          <div class="col-md-12">
+              <button type="submit" class="btn btn-danger">
+                  Confirmar exclusão
+              </button>
+              &nbsp;
+              <button type="button" data-bs-dismiss="modal" class="btn btn-outline-secondary">
+                  Cancelar
+              </button>
+
+          </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+

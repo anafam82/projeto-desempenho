@@ -1,0 +1,27 @@
+{
+
+  "produtos":[{
+      "id": 1,
+      "macroprocesso": "avaliação",
+      "processo": "avaliação",
+      "produtoPactuacao": "planilhas enviadas",
+      "indicador": "quantidade de planilhas enviadas",
+      "formula": "numero de planilhas enviadas/numero de setores",
+      "modalidade": "percentual",
+      "fonte": "email"
+       },
+       {
+      "id": 2,
+      "macroprocesso": "publicação",
+      "processo": "avaliação",
+      "produtoPactuacao": "publicação no prazo",
+      "indicador": "quantidade de publicação enviada no prazo",
+      "formula": "numero de publicações enviadas/numero de publicações recebidas",
+      "modalidade": "percentual",
+      "fonte": "infobase"
+       }
+  
+  ]
+
+  
+}
