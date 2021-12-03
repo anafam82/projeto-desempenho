@@ -24,7 +24,7 @@ import { TutorialComponent } from './tutorial/tutorial.component';
 import { ConsultaProdutosIndicadoresComponent } from './consulta-produtos-indicadores/consulta-produtos-indicadores.component';
 
 //importando a classe de configuração do módulo para PAGINAÇÃO de dados
-import {NgxPaginationModule} from 'ngx-pagination';
+// import {NgxPaginationModule} from 'ngx-pagination';
 
 
 
@@ -48,7 +48,7 @@ import {NgxPaginationModule} from 'ngx-pagination';
     MatSidenavModule,
     MatListModule, 
     //RouterModule.forRoot(routes),
-    NgxPaginationModule,
+    // NgxPaginationModule,
     MatCardModule
 
 
